@@ -1,7 +1,7 @@
-#  Write a python script to print first 10 even natural numbers in reverse order
+# Write a python script to print first N even natural numbers in reverse order
 
-
-i=10
+n=int(input("Enter a number="))
+i=n
 while i>=1:
     print(i*2,end=" ")
     i-=1

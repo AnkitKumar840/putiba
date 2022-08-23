@@ -1,6 +1,7 @@
-# Write a python script to print squares of first 10 natural numbers
-print("Square of first 10 natural numbers")
+#Write a python script to print squares of first N natural numbers.
+
+n=int(input("Enter a number="))
 i=1
-while i<=10:
-    print(i*i,end=" ")
+while i<=n:
+    print(i**2,end=" ")
     i+=1

@@ -1,6 +1,7 @@
-# Write a python script to print cubes of first 10 natural numbers.
-print("cube of first 10 natural numbers")
+# Write a python script to print cubes of first N natural numbers
+
+n=int(input("Enter a number="))
 i=1
-while i<=10:
+while i<=n:
     print(i**3,end=" ")
     i+=1

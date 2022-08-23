@@ -1,5 +1,7 @@
-# Write a python script to print first 10 natural numbers
+# Write a python script to print first N natural numbers
+
+n=int(input("Enter a number="))
 i=1
-while i<=10:
+while i<=n:
     print(i,end=" ")
     i+=1
